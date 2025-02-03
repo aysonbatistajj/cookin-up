@@ -6,8 +6,9 @@ export default {
     }
 }
 </script>
+
 <template>
-    <span :class="['tag', { ativa }]">
+    <span :class="['tag', { ativa }]"> 
         {{ texto }}
     </span>
 </template>
